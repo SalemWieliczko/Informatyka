@@ -1,5 +1,5 @@
 #include <iostream>
-int main (
+int main ()  {
 
 
 int srednia = 0;
@@ -39,7 +39,7 @@ cout>> "Srednia liczb:">> srednia;
 
 
 
-)
+}
 
 
 return 0;
