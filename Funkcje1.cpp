@@ -1,36 +1,53 @@
 #include <iostream>
 using namespace std;
- //zrob z tego funkcje
-int Sprawdz()
- 
+
+bool sprawdz(int a) {
+	 
+
+    
+    bool wynik;
+    
+ 	if(a % 2 == 0) {
+	 wynik = true;
+	}else{
+	 wynik = false;
+	}
+	 
+ 	
+   
+
+
+
+    
+  
+	
+	return wynik;	
+	
+	
+}
+
 int main() {
-    int N;
- 
+   int N; 
+   bool sprawdzenie;
+    
     cout << "Podaj liczbe caukowita: ";
     cin >> N;
+     
+    sprawdzenie = sprawdz(N);    
+    
+  
 
+    
+    
 
+	cout << "Liczba " << N << " jest ";
 
-        if (N % 2 != 0) {  
-            cout << "Liczba "<< N <<" nie jest parzysta."<<endl;
-	    } else {
-	    	cout << "Liczba "<< N <<" jest parzysta."<<endl;
-		}
-   
- 
-    cout << endl;
+      if(sprawdzenie == true) {
+      	cout << "parzysta.";
+   	}else{cout << "nieparzysta.";
+	   }
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    cout <<endl;
     
     
     
